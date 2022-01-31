@@ -1,0 +1,61 @@
+.alt-header {
+  margin: 37px 25px 35px 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.alt-header a {
+  color: inherit;
+}
+
+.alt-header__column {
+  position: relative;
+}
+
+.alt-header__column h1 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.alt-header__column i {
+  margin: 0 7px;
+}
+
+@keyframes altHeaderCog {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: rotateZ(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.alt-header .fa-cog:hover {
+  color: var(--red);
+  animation: altHeaderCog 1s linear infinite;
+  cursor: pointer;
+}
+
+@keyframes altHeaderIcons {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.alt-header .fa-search:hover,
+.alt-header .fa-music:hover,
+.alt-header .fa-comments-dollar:hover {
+  color: var(--red);
+  animation: altHeaderIcons 1s ease-in-out infinite;
+  cursor: pointer;
+}

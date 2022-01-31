@@ -1,0 +1,39 @@
+.nav__list {
+  display: flex;
+  background-color: var(--red);
+  justify-content: space-around;
+  padding: 22px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.nav__btn {
+  position: relative;
+  animation: navTransform 1s ease-in-out;
+}
+
+.nav__btn i {
+  color: var(--gold);
+}
+
+@keyframes navTransform {
+  from {
+    transform: scale3d(2, 2, 2);
+  }
+  to {
+    transform: none;
+  }
+}
+
+.nav__btn:nth-child(2) {
+  animation-delay: 0.3s;
+}
+
+.nav__btn:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.nav__btn:last-child {
+  animation-delay: 0.9s;
+}

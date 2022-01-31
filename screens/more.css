@@ -1,0 +1,149 @@
+.more-component__tel {
+  font-size: 13px;
+  margin-right: 7px;
+  display: flex;
+}
+
+.more-component__subtitle {
+  display: flex;
+  align-items: center;
+}
+
+.fa-exclamation-circle {
+  color: #f4511e;
+}
+
+.wallet {
+  border: none;
+  height: 200px;
+  padding: 30px 30px;
+  margin: 27px 0;
+  background-color: #c49000;
+  border-radius: 10px;
+}
+
+.wallet__column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wallet__title {
+  display: flex;
+  align-items: center;
+}
+
+.wallet__title i {
+  margin-right: 3px;
+}
+
+.wallet__title-wallet {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.fa-qrcode {
+  margin-left: 14px;
+}
+
+.wallet__column:nth-child(2) {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  margin-top: 35px;
+}
+
+.wallet__column input {
+  padding: 17px 130px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+
+.fa-smile {
+  position: absolute;
+  left: 11px;
+  top: 14px;
+  color: #fbc02d;
+}
+
+.wallet__column:last-child {
+  margin-top: 40px;
+  display: flex;
+}
+
+.wallet__subtitle {
+  display: flex;
+  font-size: 25px;
+  align-items: center;
+}
+
+.fa-comment {
+  margin-right: 5px;
+}
+
+.more-icons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.more-icons__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@keyframes moreIconList {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: skewX(35deg);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.more-icons__icon i:hover {
+  animation: moreIconList 1s linear;
+  color: var(--red);
+}
+
+.more-icons__icon-text {
+  margin-top: 10px;
+}
+
+.more-line {
+  border: 1px solid var(--red);
+  margin: 25px 0;
+}
+
+.more-suggestions {
+  font-size: 18px;
+  margin-bottom: 27px;
+  opacity: 0.6;
+}
+
+.more-suggestions__icons-icon img {
+  height: 60px;
+  width: 60px;
+  border-radius: 12px;
+  margin-bottom: 13px;
+}
+
+.more-suggestions__icons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.more-suggestions__icons-icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.more-suggestions__icons-text {
+  font-size: 18px;
+  opacity: 0.6;
+}

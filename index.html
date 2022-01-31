@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>IronMan Talk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>KT</span>
+        <i class="fas fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>15:50</span>
+      </div>
+      <div class="status-bar__column">
+        <span>97%</span>
+        <i class="fas fa-battery-full fa-lg"></i>
+        <i class="fas fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">Welcome to IronMan Talk</h1>
+      <p class="welcome-header__subtitle">
+        If yot have a IronMan Account, log in with your email or phone number.
+      </p>
+    </header>
+    <form action="friends.html" method="get" class="login">
+      <input name="username" class="login__email" type="email" placeholder="Email or phone number" />
+      <input name="password" class="login__password" type="password" minlength="8" placeholder="Passwords" />
+      <input class="login__login" type="submit" value="Log In" />
+      <input class="login__signup" type="submit" value="Sign Up" />
+      <a href="#"">Find IronMan Account or Password</a>
+    </form>
+
+    <div class="no-mobile">
+      <span>Your screen is too big !! </span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/6478f529f2.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

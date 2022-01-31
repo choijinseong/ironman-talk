@@ -1,0 +1,32 @@
+.chats-component {
+  position: relative;
+}
+
+.chats__notification {
+  height: 20px;
+  width: 20px;
+  background-color: #f4511e;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  position: absolute;
+  top: 35px;
+  left: 20px;
+}
+
+.chats-time {
+  margin-bottom: 28px;
+  opacity: 0.4;
+}
+
+.chats-member {
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.chats-screen a {
+  text-decoration: none;
+  color: inherit;
+}

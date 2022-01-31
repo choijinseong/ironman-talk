@@ -1,0 +1,67 @@
+.welcome-header {
+  display: flex;
+  margin: 80px 0 100px 0;
+  flex-direction: column;
+  align-items: center;
+  color: var(--red);
+}
+
+.welcome-header__title {
+  font-size: 35px;
+  margin-bottom: 35px;
+}
+
+.welcome-header__subtitle {
+  font-size: 20px;
+  width: 65%;
+  opacity: 0.5;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 22px;
+  margin: 0 30px;
+}
+
+.login input {
+  border: none;
+  padding: 15px 0px;
+  font-size: 25px;
+  margin-bottom: 30px;
+  outline: none;
+  border-radius: 20px;
+}
+
+.login input:not([type="submit"]) {
+  border: 3px solid black;
+  transition: border-color 0.5s ease-in-out;
+  border-color: var(--red);
+}
+
+.login input::placeholder {
+  opacity: 0.5;
+  padding: 13px;
+}
+
+.login input:focus {
+  border-color: #e6c619;
+}
+
+.login input[type="submit"] {
+  background-color: #e6c619;
+  cursor: pointer;
+  padding: 15px 0;
+  border-radius: 13px;
+}
+
+.login a {
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  color: var(--red);
+}
+
+.login a {
+  color: var(--red);
+}

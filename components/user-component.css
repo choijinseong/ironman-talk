@@ -1,0 +1,71 @@
+@keyframes userHover {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translate(-25px);
+  }
+  100% {
+    transform: none;
+  }
+}
+
+.user-component {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 5px 3px 5px 3px;
+  border-radius: 15px;
+  padding: 10px;
+}
+
+.user-component:hover {
+  animation: userHover 1s ease-in-out;
+  animation-delay: 0.5s;
+  cursor: not-allowed;
+}
+
+.user-component__column {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.user-component__avatar-l,
+.user-component__avatar-m,
+.user-component__avatar-s {
+  height: 70px;
+  width: 70px;
+  border-radius: 27px;
+  margin-right: 20px;
+  border: 1px solid black;
+}
+
+.user-component__avatar-l {
+  height: 80px;
+  width: 70px;
+}
+
+.user-component__avatar-s {
+  height: 60px;
+  width: 60px;
+}
+
+.user-component__column-title {
+  font-size: 23px;
+}
+
+.user-component__column-title-s {
+  font-size: 18px;
+}
+
+.user-component__column-subtitle-m,
+.user-component__column-subtitle {
+  margin-top: 9px;
+  font-size: 15px;
+  opacity: 0.4;
+}
+
+.user-component__column-subtitle-m {
+  font-size: 19px;
+}
